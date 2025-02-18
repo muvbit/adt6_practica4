@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 @Entity
 public class Cliente {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
